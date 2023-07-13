@@ -1,0 +1,12 @@
+femnist_10:
+  inputsize:
+    - 1
+    - 28
+    - 28
+  num_tasks: 10
+  num_classes: 62
+  num_train_per_class: 50
+  num_val_per_class: 5
+  num_test_per_class: 10
+  federated: True
+

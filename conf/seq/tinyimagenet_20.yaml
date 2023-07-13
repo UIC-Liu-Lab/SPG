@@ -1,0 +1,6 @@
+name: tinyimagenet_20
+
+batch_size: 64
+defaults:
+  - dataset:
+      - tinyimagenet_20

@@ -1,0 +1,6 @@
+name: imagenet_100
+
+batch_size: 64
+defaults:
+  - dataset:
+      - imagenet_100

@@ -1,0 +1,12 @@
+imagenet_100:
+  inputsize:
+    - 3
+    - 32
+    - 32
+  num_tasks: 100
+  num_classes: 1000
+  num_train_per_class: 1000
+  num_val_per_class: 100
+  num_test_per_class: 50
+  federated: False
+

@@ -1,0 +1,29 @@
+expname: ${seq.name}-${appr.name}-${seed}-${now:%Y%m%d_%H%M%S}
+
+
+hydra:
+  run:
+    dir: ./outputs
+
+
+defaults:
+  - appr: spg
+  - seq: ???
+  - backbone: alexnet
+  - seed: seed_1
+  - seed_pt: random
+
+
+optuna:
+  direction: maximize
+  storage: sqlite:///history.db
+
+
+nhid: 2048
+device: null
+epochs_max: 500
+patience_max: 5
+
+lr: 0.25
+lr_min: 1e-3
+lr_factor: 3

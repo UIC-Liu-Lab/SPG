@@ -1,0 +1,12 @@
+cifar100_10:
+  inputsize:
+    - 3
+    - 32
+    - 32
+  num_tasks: 10
+  num_classes: 100
+  num_train_per_class: 450
+  num_val_per_class: 50
+  num_test_per_class: 100
+  federated: False
+
