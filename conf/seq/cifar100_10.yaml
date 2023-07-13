@@ -1,0 +1,6 @@
+name: cifar100_10
+
+batch_size: 64
+defaults:
+  - dataset:
+      - cifar100_10

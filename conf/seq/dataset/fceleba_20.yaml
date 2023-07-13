@@ -1,0 +1,12 @@
+fceleba_20:
+  inputsize:
+    - 3
+    - 32
+    - 32
+  num_tasks: 20
+  num_classes: 2
+  num_train_per_class: 200
+  num_val_per_class: 20
+  num_test_per_class: 40
+  federated: True
+

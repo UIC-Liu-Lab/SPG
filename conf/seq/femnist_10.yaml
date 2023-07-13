@@ -1,0 +1,6 @@
+name: femnist_10
+
+batch_size: 64
+defaults:
+  - dataset:
+      - femnist_10
